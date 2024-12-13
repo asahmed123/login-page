@@ -1,0 +1,29 @@
+/* Wavy underline */
+.underline {
+    width: 150px;
+    height: 5px;
+    background: linear-gradient(to right, #7f5af0, #a16ae8);
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+/* Modal form styles */
+.login-form {
+    background-color: #9335c2;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.login-form label {
+    color: white;
+}
+
+.signup-link {
+    color: white;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
